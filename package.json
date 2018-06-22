@@ -14,6 +14,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "jshint": "^2.9.7",
     "path": "^0.12.7",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"

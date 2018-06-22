@@ -23,12 +23,11 @@ class App extends React.Component {
   }
 }
 
-
 ReactDOM.render(<App/>,document.getElementById('root'));
 
 // JSX Grammer
 // var a = {
 //  <div>
-//    Welcome to <b>React CodeLab</b>
+//    <b>Welcome to <b>React CodeLab</b>
 //  </div>
 // }
