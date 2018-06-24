@@ -1,21 +1,3 @@
----
-Practice for : Java Script
-IDE: plane / Atome Editor
----
-# Practice Makes Perfect
-> * Java Script, for simple running on Atom Editor
-> * Not Eclipes Nor Intelli-J
-> * Direct running on Script-Run Package
-> * Based on Node.Js
-
-
-
-# Node.Js
-
-# Express
-
-
-
 ## REACT.JS 인프런 유튜브 목록
 <br>
 ### Chapter 1.0
