@@ -17,7 +17,7 @@ IDE: plane / Atome Editor
 
 
 ## REACT.JS 인프런 유튜브 목록
-<br>
+
 ### Chapter 1.0
 - **강좌 1-1편** : [강의 소개 ](https://www.youtube.com/watch?v=GEoNiUcVwjE&index=1&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [139:12]
 - **강좌 1-2편** : [React.js 소개 ](https://www.youtube.com/watch?v=H24D0GveBYY&index=2&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [38:55]
