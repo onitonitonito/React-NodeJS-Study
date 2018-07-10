@@ -22,19 +22,19 @@ IDE: plane / Atome Editor
 - **강좌 1-1편** : [강의 소개 ](https://www.youtube.com/watch?v=GEoNiUcVwjE&index=1&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [139:12]
 - **강좌 1-2편** : [React.js 소개 ](https://www.youtube.com/watch?v=H24D0GveBYY&index=2&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [38:55]
 - **강좌 1-3편** : [React.js 장점과 단점 ](https://www.youtube.com/watch?v=fISs08P6eMc&index=3&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [44:46]
-<br>
+
 ### Chapter 2.0
 - **강좌 2-1편** : [Codepen 설정 , ES6 클래스 ](https://www.youtube.com/watch?v=LxiXsB9m2co&index=4&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [6:54]
 - **강좌 2-2편** : [JSX의 특징 ](https://www.youtube.com/watch?v=5MF-ThMob-s&index=5&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [67:23]
 - **강좌 2-3편** : [props ](https://www.youtube.com/watch?v=atSIfMAmSic&index=6&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [78:54]
 - **강좌 2-4편** : [state ](https://www.youtube.com/watch?v=i_ooWEUtCMc&index=7&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [811:15]
 - **강좌 2-5편** : [컴포넌트 매핑 (Component Mapping) ](https://www.youtube.com/watch?v=x3rhCJWGFc4&index=8&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [96:51]
-<br>
+
 ### Chapter 3.0
 - **강좌 3-1편** : [작업환경 설정하기 ](https://www.youtube.com/watch?v=moXE6GUEwOs&index=9&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [1024:03]
 - **강좌 3-2편** : [React Project 만들기 | NPM, WEBPACK ](https://www.youtube.com/watch?v=gSwO2S-Q88s&index=10&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [118:08]
 - **강좌 3-3편** : [Hot Module Replacement | React Hot Loader ](https://www.youtube.com/watch?v=9xZ3x3u1Avk&index=11&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [1212:14]
-<br>
+
 ### Chapter 4.0
 - **강좌 4-1편** : [Contact 검색기능 구현 | input, sort, filter ](https://www.youtube.com/watch?v=LSTVOuyF6zE&index=12&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [15:11]
 - **강좌 4-2편** : [Contact 선택기능 구현 | React.js 기초개념 응용 ](https://www.youtube.com/watch?v=j8oalkWrQrg&index=13&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [1413:36]
@@ -45,7 +45,7 @@ IDE: plane / Atome Editor
 - **강좌 4-7편** : [Contact 엑스트라 기능 구현 | KeyPress, ref ](https://www.youtube.com/watch?v=_cnRCixxaHQ&index=18&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [357:53]
 - **강좌 4-8편** : [Component LifeCycle API ](https://www.youtube.com/watch?v=OUAOo1N-EDs&index=19&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [349:50]
 - **강좌 4-9편** : [Contact 데이터 새로고침해도 유지하기 | localStorage ](https://www.youtube.com/watch?v=C_qTjHBlkks&index=20&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [219:57]
-<br>
+
 ### Chapter 5.0
 - **강좌 5-1편** : [Redux - 배경지식 | MVC, FLUX ](https://www.youtube.com/watch?v=LRUQfJLuPA8&index=21&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [2211:20]
 - **강좌 5-2편** : [Redux - 특징과 흐름 ](https://www.youtube.com/watch?v=59XSBf00GpY&index=22&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [237:02]
@@ -55,7 +55,7 @@ IDE: plane / Atome Editor
 - **강좌 5-6편** : [Redux - Reducer ](https://www.youtube.com/watch?v=YdlbmiAtD_4&index=26&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [278:20]
 - **강좌 5-7편** : [Redux - Store ](https://www.youtube.com/watch?v=dmxA42uXo0I&index=27&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [2819:34]
 - **강좌 5-8편** : [Redux - react-redux | 컴포넌트에서 사용하기 ](https://www.youtube.com/watch?v=bp_eliWWWRA&index=28&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [292:46]
-<br>
+
 ### Chapter 6.0
 - **강좌 6-1편** : [Backend-소개 ](https://www.youtube.com/watch?v=a7WIKopjA38&index=29&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [3013:38]
 - **강좌 6-2편** : [Backend-Node.js / Express.js 맛보기 | 라우팅, 모듈화 ](https://www.youtube.com/watch?v=K-Pfx4K1Rbo&index=30&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [3113:20]
