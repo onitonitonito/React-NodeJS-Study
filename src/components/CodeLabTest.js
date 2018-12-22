@@ -6,27 +6,24 @@ wrapping with {}
   </div>
 */
 
+import React from 'react';
+
 class CodeLabTest extends React.Component{
 	render() {
-		let text= 'CodeLabTest Text Test';
+		let text= 'This is CodeLabTest Component in \'Aaua!\'';
 		let stylegg = {
 			color: 'black',
 			backgroundColor: 'aqua'
 		};
 
 		return (
-			{/*<div style={stylegg}>{text}</div>*/}
-      <div>{text}</div>	}
-}
-
-
-class App extends React.Component{
-	render() {
-		return(
-			<CodeLabTest/>
-			<div className='box'>React CodeLabTest ClassName</div>
+      <div style={stylegg}>
+				{/*<div style={stylegg}>{text}</div>*/}
+				{text}
+			</div>
 		);
 	}
 }
 
-ReactDOM.render(<App/>,document.getElementById('root'));
+
+export default CodeLabTest;

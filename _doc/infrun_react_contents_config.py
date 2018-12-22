@@ -5,7 +5,9 @@
 #\n\n\n"""
 print(__doc__)
 
+import os
 
+file_dir = os.path.dirname(__file__)
 contents_dict = {
     '1-1': [
         '강좌 1-1편',

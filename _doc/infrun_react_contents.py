@@ -1,6 +1,6 @@
 """-------------------------
 # 0.0 main - infrun_react_contents.py
-# 
+#
 #
 #\n\n\n"""
 print(__doc__)
@@ -11,6 +11,7 @@ print(__doc__)
 # print(contents_dict)
 # quit()
 
+from infrun_react_contents_config import file_dir
 from infrun_react_contents_config import contents_dict
 
 
@@ -40,7 +41,8 @@ def main():
     contents_md.append("---")
 
     contents_str = "\n".join(contents_md)
-    md_filename = 'infrun_react_contents.md'
+
+    md_filename = file_dir + '/infrun_react_contents.md'
     with open(md_filename, 'w', encoding='utf-8') as f:
         f.write(contents_str)
 
