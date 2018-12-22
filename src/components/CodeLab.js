@@ -1,3 +1,11 @@
+/*
+* 누구든지 하는 리액트 #5 본격적인 리액트 코드 작성하기
+* http://bit.ly/2GB0F9O
+*
+**/
+
+
+// DOM은 index.js 에서 App을 import 받아서 렌더링한다.
 import React from 'react';
 
 

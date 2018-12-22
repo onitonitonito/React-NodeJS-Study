@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from './components/Contact';
 
+
 class App extends React.Component {
   render() {
     return (
@@ -8,6 +9,5 @@ class App extends React.Component {
     );
   }
 }
-
 
 export default App;

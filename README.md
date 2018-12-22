@@ -4,15 +4,17 @@ Goals : React, Node.js, Express, GraphQL
 project: phone-book, apollo-notes
 IDE offline: Atom, vsCode
 IDE Online: CodePen.io, Sandbox.io
+Deploy: FireBase
 ---
-# Node.Js + React + Express
-> * Node.js + React
-> * Nomad-notes
-> * InfRun
-
+# Node.js + React + Express
+### Study Materials
+> 1. 인프런 강좌 (NEW - 2018년) 베이직 코스 13강
+> 1. 인프런 강좌 (OLD - 2016년) 중급코스 35강
+> 1. 노마드코더 - 아폴로노트 만들기 강좌
 
 <br><br>
-## 누구나 하는 React 유튜브 목록 (NEW)
+## 누구나 하는 React 유튜브 목록 (NEW - 2018년)
+### Dev-tools
 > * sandbox 온라인 에디터
 > * vsCode 오프라인 에디터
 
@@ -34,6 +36,7 @@ IDE Online: CodePen.io, Sandbox.io
 
 <br><br>
 ## REACT.JS 인프런 유튜브 목록 (OLD - 2016년)
+### Dev-tools
 > * codepen.io, nitrous.io 온라인 에디터
 > * Atom 오프라인 에디터
 

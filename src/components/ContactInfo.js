@@ -1,3 +1,10 @@
+/*
+*
+*
+*
+*
+**/
+
 import React from 'react';
 
 
@@ -5,8 +12,7 @@ class ContactInfo extends React.Component {
   render() {
     return (
       <div>
-        {this.props.contact.name} : 
-        {this.props.contact.phone}
+        <b>{this.props.contact.name}</b> {this.props.contact.phone}
       </div>
 
     );
