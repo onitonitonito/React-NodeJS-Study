@@ -13,8 +13,8 @@ class Codelab extends React.Component {
       );
     }
   }
-  
-Codelab.prototype = {
+
+Codelab.protoType = {
     name: React.PropTypes.string,
     number: React.PropTypes.number.isRequired
 };
@@ -23,16 +23,23 @@ Codelab.defaultProps = {
     name: 'Unknown'
 };
 
-  class App extends React.Component {
+class App extends React.Component {
     render()  {
        return (
         // <Codelab name="velopert">this contents! shows</Codelab>
-        <Codelab name={this.props.name}>{this.props.children}</Codelab>
-       )
+        <Codelab name={this.props.name}>
+          {this.props.children}
+        </Codelab>
+      );
     }
   }
 
-  
-// ReactDOM.render(<App/>, document.getElementById('root'));
-  ReactDOM.render(<App name="velopert">I am your child</App>, document.getElementById('root'));
+App.protoType = {
+  name: React.PropTypes.string,
+  number: React.PropTypes.any.isRequired
+};
 
+
+// ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(
+  <App name="velopert">I am your child</App>, document.getElementById('root'));
