@@ -36,9 +36,9 @@ class App extends Component {
       {/* div 안에서 코맨드 문법은 멀티라인 형식을 쓴다.
         * <div/>  ... JSX 문법은 꼭 Pair tag로 닫는다. */}
         <p style={stylegg}>Hello~ REACT!</p>
-        <img src={logo} className='App-logo'/>
+        <img src={logo} className='App-logo' alt='reactLogo'/>
         <div>{textTemp}</div>
-        <img src={firebase} width='330'/>
+        <img src={firebase} width='330' alt='fireBaseLogo'/>
         </header>
       </div>
     );

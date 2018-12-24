@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 
 const app = express();
-const port = 8888;
+const port = 1337;
 
 app.use('/', express.static(path.join(dirname, './../public')));
 

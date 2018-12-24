@@ -1,5 +1,5 @@
 /*
-* 강좌2-5편 = component mapping
+* 강좌3-1편 = component mapping
 * -----
 *
 *
