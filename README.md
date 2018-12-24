@@ -7,6 +7,9 @@ IDE Online: CodePen.io, Sandbox.io
 Deploy: FireBase
 ---
 # Node.js + React + Express
+![노드로고](./src/_static/img/nodeJSLogo.png)
+
+
 ### Study Materials
 > 1. 인프런 강좌 (NEW - 2018년) 베이직 코스 13강
 > 1. 인프런 강좌 (OLD - 2016년) 중급코스 35강
