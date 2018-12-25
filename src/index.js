@@ -1,24 +1,20 @@
-/*
-* 강좌2-5편 = component mapping
-* -----
-*
-*
-*
-*
-**/
-
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDom from 'react-dom';
+import App from './lectNew/Lect11LifeCycle2';
 
 
-class App extends React.Component {
-  render() {
-    return(
-      <div>Hello</div>
-    );
-  }
-};
+ReactDom.render(
+  <App/>,
+  document.getElementById('root')
+);
 
 
-ReactDOM.render(<App/>, document.getElementById('root'));
-// export default App;
+
+/*
+APP 불러와서 랜더링하기
+
+(1) import ReacDom / ReacDom.render() 취소
+(2) export defaul App; 추가
+(3) dir변경 ./componets --> ../componets
+
+**/
