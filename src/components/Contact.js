@@ -67,6 +67,7 @@ class Contact extends React.Component {
       });
     };
 
+
     return (
       <div>
         <h1>Contacts</h1>

@@ -1,6 +1,12 @@
+/*
+* App(조립) 을 받아서 랜더링 만 해준다.
+* components(부품) --> App(조립) --> index(DOM 랜더링)
+* 구조가 간단하면 바로, App(조립) --> index(DOM 랜더링)
+**/
+
 import React from 'react';
 import ReactDom from 'react-dom';
-import App from './lectNew/Lect11LifeCycle2';
+import App from './components/ListObjectApp';
 
 
 ReactDom.render(

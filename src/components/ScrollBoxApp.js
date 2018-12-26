@@ -5,8 +5,8 @@
 
 
 import React from "react";
-// import { render } from "react-dom";
 import ScrollBox from "./ScrollBox";
+
 
 const styles = {
   fontFamily: "sans-serif",
@@ -15,5 +15,5 @@ const styles = {
 
 const App = () => <ScrollBox />;
 
-// render(<App />, document.getElementById("root"));
+
 export default App;

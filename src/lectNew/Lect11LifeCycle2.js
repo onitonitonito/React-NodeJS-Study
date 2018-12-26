@@ -3,7 +3,7 @@
 * http://bit.ly/2Re5fyN
 * -------
 *
-* 누구든지 하는 리액트 = https://react-anyone.vlpt.us/
+* 누구든지 하는 리액트 = https://react-anyone.vlpt.us/05.html
 **/
 
 import React, { Component } from 'react';
@@ -21,7 +21,7 @@ class App extends Component {
 
   state = {
     counter: 5,
-    error: '앱에 에러가 발생했어요'
+    error: '앱에 에러가 났어요!',
   };
 
   componentDidMount() {
@@ -44,8 +44,9 @@ class App extends Component {
 
   render() {
     if (this.state.error) {
+      // <div ref={ref => this.myDiv = ref}>에러가 났어요!</div>
       return (
-        <div ref={ref => this.myDiv = ref}>에러가 났어요!</div>
+        <div ref={ref => this.myDiv = ref}>{this.state.error}</div>
       )
     }
 

@@ -4,13 +4,14 @@ import "../_static/css/ScrollBox.css";
 
 class ScrollBox extends Component {
   id = 2;
-  state = {  array: [1] };
+  state = { array: [1] };
 
   handleInsert = () => {
     this.setState({
       array: [this.id++, ...this.state.array]
     });
   };
+
 
   getSnapshotBeforeUpdate(prevProps, prevState) {
     // DOM 업데이트가 일어나기 직전의 시점입니다.
@@ -29,6 +30,7 @@ class ScrollBox extends Component {
     }
   }
 
+
   componentDidUpdate(prevProps, prevState, snapshot) {
     if (snapshot) {
       const { scrollTop } = this.list;
@@ -38,6 +40,7 @@ class ScrollBox extends Component {
       this.list.scrollTop += diff;
     }
   }
+
 
   render() {
     const rows = this.state.array.map(number => (
@@ -60,6 +63,8 @@ class ScrollBox extends Component {
       </div>
     );
   }
+
 }
+
 
 export default ScrollBox;
