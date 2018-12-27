@@ -3,10 +3,12 @@
 * http://bit.ly/2RelxaN
 *
 * === This is CHILD Component of Lect8_props
+* MyNameClass(Compo) --> Lect8Props(App) --> index
 **/
 
 import React from 'react';
 
+const defaultProps = { name: 'VeloPert!' };
 
 class MyNameClass extends React.Component {
   // ==== (1) 클래스 안에서
@@ -31,10 +33,7 @@ class MyNameClass extends React.Component {
 }
 
 // ==== (2) 클래스 밖에서
-MyNameClass.defaultProps = {
-  name: 'VeloPert!'
-}
-
+MyNameClass.defaultProps = defaultProps;
 
 export default MyNameClass;
 

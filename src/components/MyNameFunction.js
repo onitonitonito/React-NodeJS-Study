@@ -7,6 +7,7 @@
 
 import React from 'react';
 
+const defaultProps = { name: 'VeloPert!' };
 
 const MyNameFunction = ({name}) => {
   let stylegg = {
@@ -25,12 +26,10 @@ const MyNameFunction = ({name}) => {
 }
 
 
-MyNameFunction.defaultProps = {
-  name: 'VeloPert!'
-}
-
+MyNameFunction.defaultProps = defaultProps;
 
 export default MyNameFunction;
+
 
 /* 2번째 방법! - 함수형 컴포넌트
 
