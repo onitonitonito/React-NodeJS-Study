@@ -21,14 +21,14 @@ class App extends Component {
   };
 
 
-  mapToComponent(data) {
-    return data.map(this.arrayFunction)
+  mapToComponent(contact) {
+    return contact.map(this.arrayFunction)
   };
 
 
   arrayFunction(contact, i) {
     // console.log(i, contact)
-    return <ListObject contact={contact} key={i}>{i+1}.</ListObject>
+    return <ListObject contact={contact} key={i}>{i+1}</ListObject>
   };
 
 

@@ -9,7 +9,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import App from './componentTest/ListObjectApp';
+import App from './componentTest/PropsClassApp';
 
 
 ReactDom.render(<App/>,document.getElementById('root'));

@@ -48,16 +48,6 @@ class App extends React.Component {
           <button onClick={this.onClickChange}>ChangeIt!</button>
         </p>
         
-      {/* 구글설문 세션*/}
-      <iframe
-        src='https://bit.ly/2CBKF3q'
-        width='450'
-        height='1300'
-        frameBorder='0'
-        marginHeight='0'
-        marginWidth='0'
-        title='poll'
-      />
       </div>
 
 

@@ -11,17 +11,9 @@ class ListObject extends Component {
   render() {
     return (
       <tr>
-        <td>
-          {this.props.children}
-        </td>
-
-        <td>
-          <b> {this.props.contact.name} </b>
-        </td>
-
-        <td>
-          {this.props.contact.phone}
-        </td>
+        <td> {this.props.children} </td>
+        <td><b> {this.props.contact.name} </b></td>
+        <td> {this.props.contact.phone}</td>
       </tr>
     );
   }
