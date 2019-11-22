@@ -9,10 +9,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import App from './componentTest/PropsClassApp';
+// import App from './components/CounterOld';
+import App from './components/FirstDeployApp';
 
 
-ReactDom.render(<App/>,document.getElementById('root'));
+ReactDom.render(<App/>, document.getElementById('root'));
 
 
 

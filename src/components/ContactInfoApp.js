@@ -4,11 +4,11 @@
 **/
 
 import React, { Component, Fragment } from 'react';
-import ListObject from './ListObject';
+import ContactInfo from './ContactInfo';
 
 
 
-class App extends Component {
+class ContactInfoApp extends Component {
   state = {
     contact: [
       { name: 'Abbey', phone: '010-1234-0001' },
@@ -28,7 +28,7 @@ class App extends Component {
 
   arrayFunction(contact, i) {
     // console.log(i, contact)
-    return <ListObject contact={contact} key={i}>{i+1}</ListObject>
+    return <ContactInfo contact={contact} key={i}>{i+1}</ContactInfo>
   };
 
 
@@ -45,4 +45,4 @@ class App extends Component {
 }
 
 
-export default App;
+export default ContactInfoApp;

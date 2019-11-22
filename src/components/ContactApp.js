@@ -1,12 +1,12 @@
 /*
 * ==== (조립) : PARENT
-* (부품) ContactInfo --> 
-* (조립) ContactApp --> 
+* (부품) ContactInfo -->
+* (조립) ContactApp -->
 * (렌더링) index
 **/
 
 import React from 'react';
-import ContactInfo from './ContactInfo';
+import Contact from './Contact';
 
 
 class App extends React.Component {
@@ -17,10 +17,10 @@ class App extends React.Component {
       keyword : "",
       // 키워드 인수를 추가(검색 keyword)
       contactData: [
-        { name: 'Abbey', phone: '010-0000-0001' }, 
-        { name: 'Billy', phone: '010-0000-0002' }, 
-        { name: 'Ceryl', phone: '010-0000-0003' }, 
-        { name: 'Devis', phone: '010-0000-0004' }, 
+        { name: 'Abbey', phone: '010-0000-0001' },
+        { name: 'Billy', phone: '010-0000-0002' },
+        { name: 'Ceryl', phone: '010-0000-0003' },
+        { name: 'Devis', phone: '010-0000-0004' },
         { name: 'Ellie', phone: '010-0000-0005' },
       ]
     };
@@ -48,7 +48,7 @@ class App extends React.Component {
         console.log(i, contact)
 
         return (
-          <ContactInfo contact={contact} key={i} />
+          <Contact contact={contact} key={i}> {i+1} </Contact>
         );
       });
     };

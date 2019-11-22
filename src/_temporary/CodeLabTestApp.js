@@ -1,16 +1,18 @@
-import React from 'react';
-import CodeLabTest from './components/CodeLabTest';
+import React, { Fragment } from 'react';
+import CodeLab from '../components/CodeLab';
 
 
 class App extends React.Component{
 	render() {
 		return(
+			<Fragment>
       <div>
-  			<CodeLabTest/>
+  			<CodeLab/>
   			<div className='box'>
 					<b>This is className 'box' but, missing</b>
 				</div>
       </div>
+			</Fragment>
 		);
 	}
 }

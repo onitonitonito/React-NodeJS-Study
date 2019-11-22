@@ -1,26 +1,24 @@
 /*
-* ==== (부품) : CHILD
-* (부품) ContactInfo --> 
-* (조립) ContactApp --> 
-* (렌더링) index
+* ==== 컴포넌드(부품)레벨 -- 자식(CHILD)
+*
 **/
 
-import React from 'react';
+import React, { Component } from 'react';
 
 
-class ContactInfo extends React.Component {
+
+class ContactInfo extends Component {
   render() {
-    // console.log('name=', this.props.contact.name);
-    // console.log('phone=', this.props.contact.phone);
-     
     return (
-      <div>
-        <b>{this.props.contact.name}</b> {this.props.contact.phone}
-      </div>
-
+      <tr>
+        <td> {this.props.children} </td>
+        <td><b> {this.props.contact.name} </b></td>
+        <td> {this.props.contact.phone}</td>
+      </tr>
     );
   }
 }
+
 
 
 export default ContactInfo;

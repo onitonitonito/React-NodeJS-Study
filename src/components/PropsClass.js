@@ -8,9 +8,9 @@
 import React, { Component, Fragment } from 'react';
 
 const defaultProps = {
+  id: 'Id is not provided!',
   name: 'NoBody!',
   phone: '010-1234-0001',
-  id: 'Id is not provided!',
   // 여기서 'quote' 프롭스는 의미없음!
   // Why? 부모(앱)레벨에서는 'quote' === props.children
   //    자식(콤포)레벨에서는 그냥, 기본 프롭스 값으로 인식!
