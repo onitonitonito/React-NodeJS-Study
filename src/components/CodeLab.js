@@ -26,6 +26,7 @@ class CodeLab extends React.Component {
   }
 
 // 최초 프롭스에 대한 유형정의 (PtotoTypes)
+// 프롭스의 유형이 무엇인지 Type 을 명확히 명시.
 
 CodeLab.protoType = {
   name: PropTypes.string,
@@ -49,36 +50,35 @@ export default CodeLab;
 // getElementById('root'));
 
 /*
-==== 프롭스
-  1. 컴포넌트 내부의 Immutable Data
-  2. JSX 내부에 {this.props.propsName} 으로 적용한다.
-  3. 컴포넌트 사용시, Tag 안에서 <div propsName='value' 형식으로 사용.
-  4. this.props.children 은 기본적으로 갖고있다.
-  5. <Cpnt>태그'여기'사이에 있는 값이 들어간다.</Cpnt>
-
-
-// React documentation 참조: Props & State
-http://bit.ly/2SkBIkl
-
-class AppTwo extends React.Component {
-  render() {
-    return(
-      <div>
-        {this.props.value}
-        {this.props.secondValue}
-        {this.props.thirdValue}
-      </div>
-    );
-  }
-};
-
-AppTwo.prototype = {
-  value: PropTypes.string,
-  secondValue: PropTypes.number,
-  thirdValue: PropTypes.any.isRequred
-};
-
-ReactDOM.render(
-  <AppTwo name='velopert'>I am your children</App>,
-  document.getElementById('root'));
+* ==== 프롭스 (Props) 란?
+*   1. components 내부의 Immutable Data
+*   2. JSX 내부에 {this.props.propsName} 으로 적용한다.
+*   3. 컴포넌트 사용시, Tag 안에서 <div propsName='value' 형식으로 사용.
+*   4. this.props.children 은 기본적으로 갖고있다.
+*   5. <Cpnt>태그'여기'사이에 있는 값이 들어간다.</Cpnt>
+*
+* // React documentation 참조: Props & State
+* http://bit.ly/2SkBIkl
+*
+* class AppTwo extends React.Component {
+*   render() {
+*     return(
+*       <div>
+*         {this.props.value}
+*         {this.props.secondValue}
+*         {this.props.thirdValue}
+*       </div>
+*     );
+*   }
+* };
+*
+* AppTwo.prototype = {
+*   value: PropTypes.string,
+*   secondValue: PropTypes.number,
+*   thirdValue: PropTypes.any.isRequred
+* };
+*
+* ReactDOM.render(
+*   <AppTwo name='velopert'>I am your children</App>,
+*   document.getElementById('root'));
 **/

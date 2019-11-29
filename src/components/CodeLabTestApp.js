@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import CodeLab from '../components/CodeLab';
+import CodeLab from './CodeLab';
 
 
 class App extends React.Component{
