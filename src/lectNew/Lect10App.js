@@ -1,5 +1,5 @@
 /*
-* 누구든지 하는 리액트 - #10 Life Cycle API (i)
+* 누구든지 하는 리액트 - #10 Life Cycle API (i) - LifeCycle
 * http://bit.ly/2GGT5KK
 * -------
 *
@@ -18,9 +18,7 @@ class App extends React.Component {
 };
 
 
-
-ReactDom.render(<App/>, document.getElementById('root'));
-// export default App;
+export default App;
 
 
 /*

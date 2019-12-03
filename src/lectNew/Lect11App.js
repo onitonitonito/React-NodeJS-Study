@@ -1,5 +1,5 @@
 /*
-* 누구든지 하는 리액트 - #10 Life Cycle API (ii)
+* 누구든지 하는 리액트 - #10 Life Cycle API (ii) - LifeCycle2
 * http://bit.ly/2Re5fyN
 * -------
 *

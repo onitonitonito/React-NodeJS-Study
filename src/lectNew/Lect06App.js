@@ -1,6 +1,5 @@
 /*
-* 누구든지 하는 리액트 - #6 JSX 기본 문법 알아보기 (i)
-* http://bit.ly/2GDIGiY
+* 누구든지 하는 리액트 - #6 JSX 기본 문법 알아보기 (i) : Jsx
 * https://react-anyone.vlpt.us/02.html
 *
 **/

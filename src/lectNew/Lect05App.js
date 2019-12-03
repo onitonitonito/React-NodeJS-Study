@@ -1,5 +1,5 @@
 /*
-* 누구든지 하는 리액트 - 프로젝트 시작하기
+* 누구든지 하는 리액트 - 프로젝트 시작하기 : GetStart
 * #5 본격적인 리액트 코드 작성하기
 * http://bit.ly/2GB0F9O
 * https://react-anyone.vlpt.us/02.html
@@ -7,9 +7,9 @@
 **/
 
 // Component 폴더가 따로 정의되있지 않다면, {Component} 가 필요하다.
+
 import React, {Component} from 'react';
 import logo from '../_static/img/reactLogo.svg'
-
 
 
 class App extends Component {

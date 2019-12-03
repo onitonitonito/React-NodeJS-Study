@@ -1,5 +1,5 @@
 /*
-* 누구든지 하는 리액트 - #8 Props
+* 누구든지 하는 리액트 - #8 Props : Props
 * http://bit.ly/2RelxaN
 * -------
 * ./src/compoments/MyNameClass.js
@@ -7,13 +7,12 @@
 *
 **/
 
-import React from 'react';
-// import ReactDom from 'react-dom';
-
 // 기본 cwd = src/ 부터 시작한다.
 // src 바깥으로 나가는 것은 지원하지 않는다.
+
+
+import React from 'react';
 import MyNameClass from '../components/MyNameClass';
-// import MyNameFunction from './components/MyNameFunction';
 
 
 class App extends React.Component {
@@ -25,7 +24,6 @@ class App extends React.Component {
     );
   }
 };
-
 
 
 // ReactDom.render(<App/>, document.getElementById('root'));

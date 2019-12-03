@@ -1,11 +1,10 @@
 /*
-* 누구든지 하는 리액트 - #7 JSX 기본 문법 알아보기 (ii)
+* 누구든지 하는 리액트 - #7 JSX 기본 문법 알아보기 (ii) : Jsx 문법2
 * http://bit.ly/2RhsZlB
 * https://react-anyone.vlpt.us/03.html
 **/
 
 import React from 'react';
-// import ReactDom from 'react-dom';
 import '../_static/css/LectNew07.css';
 
 class App extends React.Component {

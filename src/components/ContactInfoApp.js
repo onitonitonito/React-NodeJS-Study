@@ -8,7 +8,7 @@ import ContactInfo from './ContactInfo';
 
 
 
-class ContactInfoApp extends Component {
+class App extends Component {
   state = {
     contact: [
       { name: 'Abbey', phone: '010-1234-0001' },
@@ -45,4 +45,4 @@ class ContactInfoApp extends Component {
 }
 
 
-export default ContactInfoApp;
+export default App;

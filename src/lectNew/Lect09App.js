@@ -1,5 +1,5 @@
 /*
-* 누구든지 하는 리액트 - #9 state
+* 누구든지 하는 리액트 - #9 state : State
 * http://bit.ly/2GG0Hxf
 * -------
 *
