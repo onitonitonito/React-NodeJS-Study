@@ -4,7 +4,7 @@
 * -------
 *
 * ./src/components/Counter.js
-* ./lectNew/Lect9 에서 랜더링
+* ./lect2018/Lect9 에서 랜더링
 *
 **/
 

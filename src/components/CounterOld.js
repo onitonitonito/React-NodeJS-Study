@@ -4,7 +4,7 @@
 * -------
 *
 * ./src/components/CounterOld.js
-* ./lectOld/Old24State 에서 랜더링
+* ./lect2016/Old24State 에서 랜더링
 **/
 
 import React from 'react';
