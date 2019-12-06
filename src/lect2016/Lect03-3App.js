@@ -1,7 +1,7 @@
 /*
-* 강좌3-1편 = component mapping
+* 강좌3-3편 =
 * -----
-*
+* _hot_replace
 *
 *
 *

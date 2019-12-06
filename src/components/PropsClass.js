@@ -7,24 +7,25 @@
 
 import React, { Component, Fragment } from 'react';
 
+// 여기서 'quote' 프롭스는 의미없음!
+// Why? 부모(앱)레벨에서는 'quote' === props.children
+//    자식(콤포)레벨에서는 그냥, 기본 프롭스 값으로 인식!
+
 const defaultProps = {
   id: 'Id is not provided!',
   name: 'NoBody!',
   phone: '010-1234-0001',
-  // 여기서 'quote' 프롭스는 의미없음!
-  // Why? 부모(앱)레벨에서는 'quote' === props.children
-  //    자식(콤포)레벨에서는 그냥, 기본 프롭스 값으로 인식!
   quote: '--MEANINGLESS!--',
 };
 
 
 class PropsClass extends Component {
   showConsole() {
+    console.log('\n\nquote=', this.props.quote);
     console.log('id=', this.props.id);
     console.log('name=', this.props.name);
     console.log('phone=', this.props.phone);
     console.log('child=', this.props.children);
-    console.log('quote=', this.props.quote);
   }
 
   render() {
@@ -34,14 +35,14 @@ class PropsClass extends Component {
     return (
       <Fragment>
         <div>
-          <h1>Contact info.</h1>
+
           {/* 차일드 프롭스는 받았음*/}
-          <h2>{this.props.children}</h2>
+          <p><b>props(child), qoute</b>: {this.props.children}</p>
 
           {/* 그런데 부모에게 받은 프롭스는 없음 = 디폴트 프롭스 채택!*/}
-          <p><b>{this.props.name}</b></p>
-          <p>{this.props.phone}</p>
-          <p>{this.props.id}</p>
+          <p><b>User ID</b> : {this.props.id}</p>
+          <p><b>Name</b>        : {this.props.name}</p>
+          <p><b>Phone</b>       : {this.props.phone}</p>
         </div>
       </Fragment>
     );

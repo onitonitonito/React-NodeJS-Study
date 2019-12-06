@@ -1,7 +1,7 @@
 /*
-* 강좌4-1편 =
+* 강좌3-1편 = component mapping
 * -----
-*
+* _env_setting
 *
 *
 *

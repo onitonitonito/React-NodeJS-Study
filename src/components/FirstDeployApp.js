@@ -9,8 +9,8 @@
 import React, {Component} from 'react';
 
 import '../_static/css/RollingReact.css';
-import logo from '../_static/img/reactLogo.svg'
-import firebase from '../_static/img/fireBaseLogo.png'
+import logo from '../_static/image/reactLogo.svg'
+import firebase from '../_static/image/fireBaseLogo.png'
 
 
 
