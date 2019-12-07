@@ -64,7 +64,7 @@ class App extends React.Component {
 
         <img
           src={this.state.imgSource}
-          width='500'
+          width='400'
           alt='FreddieOrNobody'
           onClick={this.onClickChange}
         />

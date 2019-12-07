@@ -8,7 +8,7 @@
 **/
 
 import React, { Component } from 'react';
-import logo from '../_static/img/nodeJSLogo.png';
+import logo from '../_static/image/nodeJSLogo.png';
 // import ReactDOM from 'react-dom';
 // React.Component --> Component 로 변경할 수 있다.
 

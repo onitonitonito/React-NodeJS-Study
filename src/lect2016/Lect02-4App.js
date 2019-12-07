@@ -6,7 +6,7 @@
 **/
 
 import React from 'react';
-import CounterOld from '../components/CounterOld';
+import CounterOld from '../components/Counter-2';
 
 
 class App extends React.Component {

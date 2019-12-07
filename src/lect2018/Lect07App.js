@@ -2,36 +2,8 @@
 * 누구든지 하는 리액트 - #7 JSX 기본 문법 알아보기 (ii) : Jsx 문법2
 * http://bit.ly/2RhsZlB
 * https://react-anyone.vlpt.us/03.html
-**/
 
-import React from 'react';
-import '../_static/css/LectNew07.css';
-
-class App extends React.Component {
-  render() {
-    const stylegg = { }
-    // JSX 외부에서 커맨드 작성
-    return (
-      // JSX 외부에서 커맨드 작성
-      <div
-        className='App'
-        style={stylegg}    // 테그내부에서!
-      >
-      {/* 특별히!, JSX 내부에서 커맨드 작성*/}
-          Hello~ CSS stlye~!!!!
-      </div>
-    );
-
-   }
-};
-
-
-
-// ReactDom.render(<App/>, document.getElementById('root'));
-export default App;
-
-
-/* 글자에 스타일을 넣는 법
+글자에 스타일을 넣는 법
 ==== 변수로 직접 스타일테그를 넣어준다.
   const stylegg = {
     backgroundColor: 'black',
@@ -54,3 +26,36 @@ import './css/index.css';
   Hello~ CSS style~!!
 </div>
 **/
+
+import React, {Component, Fragment} from 'react';
+import '../_static/css/LectNew07.css';
+
+class App extends Component {
+  render() {
+    const stylegg = {
+      backgroundColor: 'black',
+      padding: '11px',
+      color: 'coral',
+      fontSize: '35px',
+      fontWeight: 'bold',
+     }
+
+    return (
+      // div 밖에서 코맨드 문법은 젓가락
+      <Fragment>
+      {/* 특별히!, JSX 내부에서 커맨드 작성*/}
+        <div
+          className='App'
+          style={stylegg} // 테그내부에서!
+        >
+          Hello~ CSS stlye~!!!!
+        </div>
+      </Fragment>
+    );
+
+  }
+};
+
+
+// ReactDom.render(<App/>, document.getElementById('root'));
+export default App;

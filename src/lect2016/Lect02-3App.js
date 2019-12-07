@@ -11,7 +11,7 @@
 
 import React, { Fragment } from 'react';
 import CodeLab from '../components/CodeLab';
-import CounterOld from '../components/CounterOld';
+import CounterOld from '../components/Counter-2';
 
 
 // Component(부품) --> App(조립) --> index(DOM 랜더링)

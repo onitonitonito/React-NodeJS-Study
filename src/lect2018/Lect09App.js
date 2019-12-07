@@ -8,7 +8,7 @@
 import React from 'react';
 // import ReactDom from 'react-dom';
 
-import Counter from '../components/Counter';
+import Counter from '../components/Counter-1';
 
 
 class App extends React.Component {

@@ -5,32 +5,7 @@
 * ./src/compoments/MyNameClass.js
 * ./src/compoments/MyNameFunction.js
 *
-**/
-
-// 기본 cwd = src/ 부터 시작한다.
-// src 바깥으로 나가는 것은 지원하지 않는다.
-
-
-import React from 'react';
-import MyNameClass from '../components/MyNameClass';
-
-
-class App extends React.Component {
-  render() {
-    return (
-      <MyNameClass />     // VeloPert!
-      // <MyNameFunction name='InfLearn!' /> // InfLearn!
-      // name 값이 없을 때엔, Child 값을 사용한다.
-    );
-  }
-};
-
-
-// ReactDom.render(<App/>, document.getElementById('root'));
-export default App;
-
-
-/* props = 부모compo --> 자식compo 에서 데이터 전달
+ props = 부모compo --> 자식compo 에서 데이터 전달
 <Child value='value' />
 ---
 프롭스는 부모가 내려주는 읽기전용 값
@@ -47,3 +22,28 @@ export default App;
 - 초기 마운트속도가 클래스보다 약간 빠르다
 - 내부자원을 덜 사용한다.
 **/
+
+
+// 기본 cwd = src/ 부터 시작한다.
+// src 바깥으로 나가는 것은 지원하지 않는다.
+
+
+import React from 'react';
+import MyNameClass from '../components/MyNameClass';
+
+
+class App extends React.Component {
+  render() {
+    return (
+      // VeloPert!
+      // <MyNameFunction name='InfLearn!' /> // InfLearn!
+      // name 값이 없을 때엔, Child 값을 사용한다.
+
+      <MyNameClass />     
+    );
+  }
+};
+
+
+// ReactDom.render(<App/>, document.getElementById('root'));
+export default App;

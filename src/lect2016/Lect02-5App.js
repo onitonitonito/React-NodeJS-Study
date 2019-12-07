@@ -8,7 +8,7 @@
 import React from 'react';
 
 
-class Contact extends React.Component {
+class App extends React.Component {
   state = {
     contacts: [
       { name: 'Abert', phone: '010-1234-0001', },
@@ -33,7 +33,7 @@ class Contact extends React.Component {
 
 
 // ReactDOM.render(<App/>, document.getElementById('root'));
-export default Contact;
+export default App;
 
 /*
 ==== Component Mapping
