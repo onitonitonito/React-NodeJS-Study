@@ -11,7 +11,7 @@
 
 import React, { Fragment } from 'react';
 import CodeLab from '../components/CodeLab';
-import CounterOld from '../components/Counter-2';
+import Counter2 from '../components/Counter-2';
 
 
 // Component(부품) --> App(조립) --> index(DOM 랜더링)
@@ -19,10 +19,13 @@ class App extends React.Component {
     render()  {
       return (
         <Fragment>
+        
           <CodeLab name={this.props.name} number='7'>
             {this.props.children}
           </CodeLab>
-          <CounterOld/>
+
+          <Counter2/>
+
         </Fragment>
       );
     }

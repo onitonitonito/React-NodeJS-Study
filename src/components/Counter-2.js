@@ -10,7 +10,7 @@
 import React from 'react';
 
 
-class CounterOld extends React.Component {
+class Counter2 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {value: 0}
@@ -38,4 +38,4 @@ class CounterOld extends React.Component {
 }
 
 
-export default CounterOld;
+export default Counter2;

@@ -9,9 +9,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import App from './components/ContactApp';
-// import App from './lect2018/Lect11App';
-// import App from './lect2016/Lect02-5App';
+// import App from './components/ContactInfoApp';
+// import App from './lect2016/Lect02-4App';
+// import App from './lect2018/Lect02-1App';
+import App from './test/App';
 
 
 ReactDom.render(<App/>, document.getElementById('root'));

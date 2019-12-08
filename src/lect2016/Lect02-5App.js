@@ -6,28 +6,13 @@
 **/
 
 import React from 'react';
+import ContactInfo from '../components/ContactInfo';
 
 
 class App extends React.Component {
-  state = {
-    contacts: [
-      { name: 'Abert', phone: '010-1234-0001', },
-      { name: 'Beron', phone: '010-1234-0002', },
-      { name: 'Ceryl', phone: '010-1234-0003', },
-      { name: 'Denny', phone: '010-1234-0004', },
-    ],
-  };
-
-  // 화살함수를 쓰면, 바인딩을 안 해줘도 됨.
-  // 이 부분이 많이 헽갈리네~!!;;;
-  const mapToConpoments = (data) => {
-    return (data.map((contact, i) => {
-      return(<ContactInfo contact={contact} key={i} />);
-    }
-  }
 
   render() {
-    return(<Contac/>);
+    return(<ContactInfo/>);
   }
 };
 
