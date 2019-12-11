@@ -1,0 +1,25 @@
+#NUMBERS {
+  margin-top: 5vh;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+}
+
+b {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 64px;
+  margin: 1px;
+}
+
+.btn-custom {
+  margin: 0;
+  background-color: #f5b86f;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 0px;
+}
