@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>Simple JS!</title>
-        <!-- meta tag data for webCrawlers / internet shearch engine -->
         <meta charset='UTF-8' content='text/html' http-equiv='Content-Type'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	</head>
@@ -10,22 +9,15 @@
   <body>
     <div>
       <h2>Counter</h2>
+
       <h1 id="number">1</h1>
       <button id="increase">+</button>
+
     </div>
   </body>
 
 
 
-<script type="text/javascript">
-  let number = 1;
-  let elNumber = document.getElementById('number');
-  let buttonIcrease = document.getElementById('increase');
-
-  buttonIcrease.onclick = function() {
-    number += 2;
-    elNumber.innerText = number;
-  }
-</script>
+<script src="./increaseNumber.js"></script>
 
 </html>
