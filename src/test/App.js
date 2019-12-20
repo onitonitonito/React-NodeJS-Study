@@ -7,17 +7,17 @@
 import React from 'react';
 import Info from './Info';
 import Image from './Image';
-// import Freddie from '../_static/image/Freddie.png';
+import logoPath from '../_static/image/logoReact.png'
 
 class App extends React.Component {
+
   render() {
     return(
       // <Test name={'Lee'} age={17} tall={190} />
       <div>
-      <h1>Hello~! React!</h1>
+      <h1><img width={80} src={logoPath}/> Hello~! React!</h1>
 
       <Info/><br />
-      <Image/> <br />
 
       <button>Click to Next Picture!</button>
 

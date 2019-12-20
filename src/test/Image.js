@@ -8,21 +8,18 @@
 
 
 import React, { Component, Fragment } from 'react';
-import img from '../_static/image/nobody.png';
+// import img from '../_static/image/nobody.png';
 
 
 class Image extends Component {
   render() {
     return (
       <Fragment>
-        <div>
           <img
-            width={300}
-            src={img}
+            width={350}
+            src={this.props.src}
             alt={'default'}
-          /> <br />
-          [fig. {this.props.caption}]
-        </div>
+          />
       </Fragment>
     );
   }
@@ -30,6 +27,7 @@ class Image extends Component {
 
 
 Image.defaultProps = {
+  src  : '../_static/image/nobody.png',
   caption : 'Freddie Murcury sing a song!',
 }
 
