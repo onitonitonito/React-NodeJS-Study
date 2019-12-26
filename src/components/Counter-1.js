@@ -6,6 +6,13 @@
 * ./src/components/Counter.js
 * ./lect2018/Lect9 에서 랜더링
 *
+* (1) 화살표 함수를 사용할때는 그냥 this.state.value를 사용하고
+*
+* (2) 일반함수를 사용할 때는 constructor 에서 꼭 bind 를 해줘야 함.
+*   - constructor 는 props 를 내려받음 ... constructor(props)
+*   - 제일 처음으로 supuer(props) 를 상속 함
+*   - this.function = this.function.bind(this);
+*
 **/
 
 import React from 'react';
@@ -61,13 +68,3 @@ class Counter extends React.Component {
 
 
 export default Counter;
-
-/*
-(1) 화살표 함수를 사용할때는 그냥 this.state.value를 사용하고
-
-(2) 일반함수를 사용할 때는 constructor 에서 꼭 bind 를 해줘야 함.
-  - constructor 는 props 를 내려받음 ... constructor(props)
-  - 제일 처음으로 supuer(props) 를 상속 함
-  - this.function = this.function.bind(this);
-
-**/

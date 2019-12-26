@@ -12,7 +12,7 @@ import ReactDom from 'react-dom';
 // import App from './components/ContactInfoApp';
 // import App from './lect2016/Lect02-4App';
 // import App from './lect2018/Lect02-1App';
-import App from './test/App';
+import App from './photoAlbum/App';
 
 
 ReactDom.render(<App/>, document.getElementById('root'));

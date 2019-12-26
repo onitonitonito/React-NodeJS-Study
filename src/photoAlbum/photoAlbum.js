@@ -77,7 +77,7 @@ function showPage(i) {
     `<div>My name is '<b>${name}</b>'</div>`,
     `<div>Age = ${age}</div>`,
     `<div>Tall = ${tall}</div><br />`,
-    `<img src=${src} width=350 alt='info' onclick='buttonIcrease()'/>`,
+    `<img src=${src} width=300 alt='info' onclick='buttonIcrease()'/>`,
     `<div>[Fig.${i} ${caption}]</div>`,
     '<br /><br />',
   ];
