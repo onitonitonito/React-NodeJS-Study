@@ -10,13 +10,14 @@
 import React from 'react';
 
 
-class Counter2 extends React.Component {
+class Counter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {value: 0}
 
     // 함수를 정의하면, 꼭!! 생성자에서 바인딩을 해줘야 함.
     this.handleClick = this.handleClick.bind(this);
+    this.handleReset = this.handleReset.bind(this);
   };
 
   // 콜백함수 정의
@@ -26,16 +27,26 @@ class Counter2 extends React.Component {
     });
   }
 
+
+  handleReset() {
+    this.setState({
+      value: 0
+    });
+  }
+
   // 랜더링에 JSX
   render() {
     return (
       <div>
-        <h1> value: {this.state.value}</h1>
-        <button onClick={this.handleClick}> TICK </button>
+        <div>* Components = <b>Counter01.js</b></div>
+        <h1>01.Simple Tick Counter</h1>
+        <h2> value: {this.state.value}</h2>
+        <button onClick={this.handleClick}> TICK COUNTER PLUS!</button> &nbsp;
+        <button onClick={this.handleReset}> RESET to '0'</button>
       </div>
     );
   }
 }
 
 
-export default Counter2;
+export default Counter;
