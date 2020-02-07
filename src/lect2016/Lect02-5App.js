@@ -3,22 +3,83 @@
 * http://bit.ly/2BQODnd
 * -----
 *
+* ==== 앱(조립)레벨 -- 부모(PARENT)
+* use './components/ContactInfo.js'
+*
 **/
 
-import React from 'react';
+import React, { Component, Fragment } from 'react';
 import ContactInfo from '../components/ContactInfo';
 
+class App extends Component {
+  state = {
+    contact: [
+      { name: 'Abbey', phone: '010-1234-0001' },
+      { name: 'Billy', phone: '010-1234-0002' },
+      { name: 'Ceryl', phone: '010-1234-0003' },
+      { name: 'Denny', phone: '010-1234-0004' },
+      { name: 'Ellie', phone: '010-1234-0005' },
+      { name: 'Felix', phone: '010-1234-0006' },
+    ]
+  };
 
-class App extends React.Component {
+
+  arrayFunction(contact, i) {
+    console.log(i, contact)
+    return <ContactInfo contact={contact} key={i}>{i+1}</ContactInfo>
+  };
+
+
+  mapToComponent(contact) {
+    return contact.map(this.arrayFunction)
+  };
+
 
   render() {
-    return(<ContactInfo/>);
-  }
-};
+    // border : '1',
+    // cellSpacing : '0',
+    // cellPadding : '3'
+
+    let styleTableAll = {
+        // width: '70%',
+        width: '300px',
+        backgroundColor : '#f4eaf0',
+        // border: '1px solid gray',
+        borderTop: '1px solid gray',
+        borderBottom: '1px solid gray',
+
+        padding: '10px',
+        textAlign: 'center',
+        borderCollapse: 'collapse',
+      };
+
+    return (
+      <Fragment>
+        <div>* Components = <b>'Lect02-5App.js'</b></div>
+        <h1>contact info</h1>
+
+        <table style={styleTableAll}>
+          <thead>
+            <tr>
+              <th>n</th>
+              <th>NAME</th>
+              <th>PHONE-NUMBER</th>
+            </tr>
+          </thead>
+
+          <tbody style={styleTableAll}>
+            {this.mapToComponent(this.state.contact)}
+          </tbody>
+        </table>
+
+      </Fragment>
+    )
+  };
+}
 
 
-// ReactDOM.render(<App/>, document.getElementById('root'));
 export default App;
+
 
 /*
 ==== Component Mapping

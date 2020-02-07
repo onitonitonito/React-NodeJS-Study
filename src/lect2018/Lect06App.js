@@ -10,7 +10,7 @@ import React, {Fragment} from 'react';
 
 class App extends React.Component {
   render() {
-    let greet = 'Hello~';
+    let greet = 'Hello~<span role="img" aria-label="wave">👋</span> ';
     var depart = 'Bye!'
 
     return (

@@ -11,34 +11,32 @@
 
 import React, { Fragment } from 'react';
 import CodeLab from '../components/CodeLab';
-import Counter2 from '../components/Counter-2';
+import Counter2 from '../components/Counter02';
 
 
 // Component(부품) --> App(조립) --> index(DOM 랜더링)
 class App extends React.Component {
-    render()  {
-      return (
-        <Fragment>
-        
-          <CodeLab name={this.props.name} number='7'>
-            {this.props.children}
-          </CodeLab>
-
-          <Counter2/>
-
-        </Fragment>
-      );
-    }
+  static defaultProps = {
+    name: 'VeloCity',
+    children: 'baby.. baby..! <--App 레벨변경!'
   }
+
+  render()  {
+    return (
+      <Fragment>
+        <CodeLab name={this.props.name} number={7}/>
+        <br />
+        <br />
+        <br />
+        <Counter2 numMin={3} numMax={12}/>
+      </Fragment>
+    );
+  }
+}
 
 
 // props와 child 를 가로채서, App에 다시 던진다.
 // Old23Props 전달--> Old23PropsApp 전달--> App (최종랜더링)
-
-App.defaultProps = {
-  name: 'VeloCity',
-  children: 'baby.. baby..! <--App 레벨변경!'
-}
 
 
 

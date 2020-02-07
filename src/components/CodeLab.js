@@ -14,34 +14,49 @@ import PropTypes from 'prop-types';
 
 
 class CodeLab extends React.Component {
+  static protoType = {
+    name: PropTypes.string,
+    number: PropTypes.number.isRequired
+  };
+
+  static defaultProps = {
+    name: 'Unknown',
+    number: 13,
+    children: 'Children... children.. ! <-- Comp 레벨변경!',
+  };
+
     render() {
       return (
         <div>
+          <div>* Components = <b>CodeLab.js</b></div>
           <h1> Hello, '{this.props.name}' </h1>
             <div>{this.props.children}</div>
-            <h2>{this.props.number}</h2>
+            <h2>number = {this.props.number}</h2>
         </div>
       );
     }
   }
 
-// 최초 프롭스에 대한 유형정의 (PtotoTypes)
-// 프롭스의 유형이 무엇인지 Type 을 명확히 명시.
+/*
+* 최초 프롭스에 대한 유형정의 (PtotoTypes)
+* 프롭스의 유형이 무엇인지 Type 을 명확히 명시.
+*/
 
-CodeLab.protoType = {
-  name: PropTypes.string,
-  number: PropTypes.number.isRequired
-};
+// CodeLab.protoType = {
+//   name: PropTypes.string,
+//   number: PropTypes.number.isRequired
+// };
 
+/*
+* props와 child 를 가로채서, App에 다시 던진다.
+* Old23Props 전달--> Old23PropsApp 전달--> App (최종랜더링)
+**/
 
-// props와 child 를 가로채서, App에 다시 던진다.
-// Old23Props 전달--> Old23PropsApp 전달--> App (최종랜더링)
-
-CodeLab.defaultProps = {
-  name: 'Unknown',
-  number: 13,
-  children: 'Children... children.. ! <-- Comp 레벨변경!',
-};
+// CodeLab.defaultProps = {
+//   name: 'Unknown',
+//   number: 13,
+//   children: 'Children... children.. ! <-- Comp 레벨변경!',
+// };
 
 
 export default CodeLab;

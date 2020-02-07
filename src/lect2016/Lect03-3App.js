@@ -1,24 +1,24 @@
 /*
-* 강좌3-3편 =
+* 강좌3-3편  = Templates
 * -----
-* _hot_replace
+* _env_setting
 *
 *
 *
 **/
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, {Component, Fragment} from 'react';
 
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return(
-      <div>Hello</div>
+      <Fragment>
+        <div>* Components = <b>'Lect03-3App.js'</b></div>
+        <h1> Hello!<span role="img" aria-label="wave">👋</span> </h1>
+      </Fragment>
     );
   }
 };
 
-
-ReactDOM.render(<App/>, document.getElementById('root'));
-// export default App;
+export default App;

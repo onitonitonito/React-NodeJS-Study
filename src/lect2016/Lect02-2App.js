@@ -19,13 +19,20 @@ class App extends Component {
       // JSX(<div>)밖에서의 코맨드라인
       <div>
         {/* JSX 안에서(<div>)는 이렇게 써야 함!*/}
+        <div>* Components = <b>'Lect02-2App.js'</b></div>
         <h1>CodeLab</h1>
+
         <img
+          width='300'
+
           // 다만, 태그 안에서는 젓가락을 쓸 수 있다!
-          src={logo}              // img src는 콤포넌트로 받을 것!
-          width='250'
-          alt='NodeJSlogoScreen'  // img는 alt를 꼭!써야한다(안쓰면 에러!)
+          // img src는 componet 만 받을 수 있음!
+          src={logo}
+
+          // img는 alt를 꼭!써야한다(안쓰면 에러!)
+          alt='NodeJSlogoScreen'
         />
+
         <p>This is CodeLab! JSX style</p>
         <p>* JSX (JavaScript Expression)</p>
       </div>

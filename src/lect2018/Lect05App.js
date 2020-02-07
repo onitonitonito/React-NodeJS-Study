@@ -15,7 +15,7 @@ import logo from '../_static/image/reactLogo.svg'
 class App extends Component {
 
   render() {
-    let text = 'Hello~ REACT!'
+    let text = 'Hello~ REACT!<span role="img" aria-label="wave">👋</span>'
     let stylegg = {
       color : '#fab90b',
       backgroundColor: '#443322'

@@ -6,13 +6,13 @@
 **/
 
 import React from 'react';
-import Counter2 from '../components/Counter-2';
+import Counter from '../components/Counter02';
 
 
 class App extends React.Component {
   render() {
     return (
-      <Counter2 />
+      <Counter />
     );
   }
 }

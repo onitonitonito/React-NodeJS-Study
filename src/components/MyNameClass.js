@@ -25,7 +25,7 @@ class MyNameClass extends React.Component {
 
     return (
       <div>
-        안녕하세요~!<br/>제 이름은 '
+        안녕하세요~!<span role="img" aria-label="wave">👋</span> <br/>제 이름은 '
             <u style={stylegg}>{this.props.name}</u>' 입니다..
       </div>
     );
@@ -33,7 +33,7 @@ class MyNameClass extends React.Component {
 }
 
 // ==== (2) 클래스 밖에서
-MyNameClass.defaultProps = defaultProps;
+// MyNameClass.defaultProps = defaultProps;
 
 export default MyNameClass;
 

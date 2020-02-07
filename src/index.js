@@ -9,8 +9,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import App from './components/CounterApp';
-// import App from './lect2016/Lect02-4App';
+import App from './components/EmojiApp';
+// import App from './lect2016/Lect03-1App';
 // import App from './lect2018/Lect02-1App';
 // import App from './photoAlbum/App';
 

@@ -48,7 +48,7 @@ class App extends Component {
           className='App'
           style={stylegg} // 테그내부에서!
         >
-          Hello~ CSS stlye~!!!!
+          Hello~ CSS stlye~!!<span role="img" aria-label="wave">👋</span> 
         </div>
       </Fragment>
     );

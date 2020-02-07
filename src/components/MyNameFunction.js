@@ -19,7 +19,7 @@ const MyNameFunction = ({name}) => {
 
   return (
     <div>
-      안녕하세요~!<br/>제 이름은 '
+      안녕하세요~!<span role="img" aria-label="wave">👋</span><br/>제 이름은 '
           <u style={stylegg}>{name}</u>' 입니다..
     </div>
   );

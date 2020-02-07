@@ -7,15 +7,18 @@
 * 제일 첫번째 실습화일 = 코드팬 확인OK
 **/
 
-import React from 'react';
+import React, {Component, Fragment} from 'react';
 // import ReactDOM from 'react-dom';
 
 
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
-      <div>This is CodeLab!</div>
+      <Fragment>
+      <div>* Components = <b>'Lect02-1App.js'</b></div>
+      <h1>This is CodeLab!<span role="img" aria-label="wave">👋</span></h1>
+      </Fragment>
     );
   }
 }

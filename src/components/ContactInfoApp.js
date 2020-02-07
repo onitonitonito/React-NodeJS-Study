@@ -21,21 +21,22 @@ class App extends Component {
   };
 
 
-  mapToComponent(contact) {
-    return contact.map(this.arrayFunction)
-  };
-
-
   arrayFunction(contact, i) {
     // console.log(i, contact)
     return <ContactInfo contact={contact} key={i}>{i+1}</ContactInfo>
   };
 
 
+  mapToComponent(contact) {
+    return contact.map(this.arrayFunction)
+  };
+
+
   render() {
     return (
       <Fragment>
-        <h1>contact</h1>
+        <div>* Components = <b>'ContactInfoApp.js'</b></div>
+        <h1>contact Infomation</h1>
         <table border='1' cellSpacing='0' cellPadding='3'>
           {this.mapToComponent(this.state.contact)}
         </table>
