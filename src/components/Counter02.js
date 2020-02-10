@@ -69,6 +69,7 @@ class Counter extends React.Component {
     return(
       <div>
         <div>* Components = <b>Counter02.js</b></div>
+        
         <h1>02.Simple Gauge Counter</h1>
         <div>
           Value ({this.props.numMin}~{this.props.numMax}) {this.state.graph}

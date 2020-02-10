@@ -39,6 +39,7 @@ class Counter extends React.Component {
     return (
       <div>
         <div>* Components = <b>Counter01.js</b></div>
+        
         <h1>01.Simple Tick Counter</h1>
         <h2> value: {this.state.value}</h2>
         <button onClick={this.handleClick}> TICK COUNTER PLUS!</button> &nbsp;

@@ -1,5 +1,5 @@
 /*
-*
+* EmojiOptions
 * use for EmojiApp.js
 *
 *
