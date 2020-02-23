@@ -9,7 +9,7 @@
 // Component 폴더가 따로 정의 되 있지 않다면, {Component} 가 필요하다.
 
 import React, {Component} from 'react';
-import logo from '../_static/image/reactLogo.svg'
+import logo from '../static/image/reactLogo.svg'
 
 
 class App extends Component {

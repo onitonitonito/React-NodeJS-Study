@@ -9,10 +9,10 @@
 import React, {Fragment} from 'react';
 import PropsClass from './PropsClass';
 
-import AoA1 from '../_static/image/aoaCartoon1.png';
-import AoA2 from '../_static/image/aoaCartoon2.png';
-import nobody from '../_static/image/nobody.png';
-import Freddie from '../_static/image/Freddie.png';
+import AoA1 from '../static/image/aoaCartoon1.png';
+import AoA2 from '../static/image/aoaCartoon2.png';
+import nobody from '../static/image/nobody.png';
+import Freddie from '../static/image/Freddie.png';
 
 let stage = 0;
 

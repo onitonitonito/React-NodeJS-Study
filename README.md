@@ -7,7 +7,7 @@ IDE Online: CodePen.io, Sandbox.io
 Deploy: FireBase
 ---
 # Node.js + React + Express
-![노드로고](./src/_static/image/logoNodeJS.png)
+![노드로고](./src/static/image/logoNodeJS.png)
 
 
 ### Study Materials

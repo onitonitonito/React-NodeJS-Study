@@ -14,6 +14,7 @@
 
 import React from 'react';
 import ReactDom from 'react-dom';
+import * as serviceWorker from './static/serviceWorker';
 
 import App from './components/EmojiApp';
 // import App from './components/CounterApp';
@@ -24,3 +25,8 @@ import App from './components/EmojiApp';
 
 
 ReactDom.render(<App/>, document.getElementById('root'));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();

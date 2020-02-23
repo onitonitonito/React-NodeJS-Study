@@ -28,7 +28,7 @@ class App extends React.Component {
       <br />
       <br />
 
-      <Counter2 numMin={5} numMax={20} />
+      <Counter2 numMin={5} numMax={7} />
       </div>
     );
   }

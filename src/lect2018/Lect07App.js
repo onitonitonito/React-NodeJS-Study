@@ -28,7 +28,7 @@ import './css/index.css';
 **/
 
 import React, {Component, Fragment} from 'react';
-import '../_static/css/LectNew07.css';
+import '../static/css/LectNew07.css';
 
 class App extends Component {
   render() {

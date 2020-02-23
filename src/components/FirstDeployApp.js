@@ -8,9 +8,9 @@
 // Component 폴더가 따로 정의되있지 않다면, {Component} 가 필요하다.
 import React, {Component} from 'react';
 
-import '../_static/css/RollingReact.css';
-import logo from '../_static/image/reactLogo.svg'
-import firebase from '../_static/image/fireBaseLogo.png'
+import '../static/css/RollingReact.css';
+import logo from '../static/image/reactLogo.svg'
+import firebase from '../static/image/fireBaseLogo.png'
 
 
 

@@ -11,7 +11,7 @@
 
 
 import React, { Component } from "react";
-import "../_static/css/ScrollBox.css";
+import "../static/css/ScrollBox.css";
 
 
 class ScrollBox extends Component {

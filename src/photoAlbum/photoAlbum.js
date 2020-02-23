@@ -5,7 +5,7 @@
 *  - numVal from div id = iNumber, check!
 **/
 
-let srcPath = '../../src/_static/image/';
+let srcPath = '../../src/static/image/';
 const infos = [
     {
       name    : 'nobody',

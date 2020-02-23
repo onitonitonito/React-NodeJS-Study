@@ -16,12 +16,12 @@
 
 import React, { Component, Fragment } from 'react';
 
-import logoPath from '../_static/image/logoReact.png'
+import logoPath from '../static/image/logoReact.png'
 
-import img0 from '../_static/image/nobody.png';
-import img1 from '../_static/image/Freddie.png';
-import img2 from '../_static/image/aoaCartoon1.png';
-import img3 from '../_static/image/aoaCartoon2.png';
+import img0 from '../static/image/nobody.png';
+import img1 from '../static/image/Freddie.png';
+import img2 from '../static/image/aoaCartoon1.png';
+import img3 from '../static/image/aoaCartoon2.png';
 
 class Info extends Component {
   state = {

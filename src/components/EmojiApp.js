@@ -59,33 +59,34 @@ class App extends Component {
   }
 
   render() {
-
     const showLabel = (e) => {
-      let imageLabel = e.target.value;
       let imageSymbol;
+      let imageLabel = e.target.value;
 
-      if (imageLabel === 'donut') {
-        imageSymbol = '🍩';
+      switch (imageLabel) {
+        case ('donut'):
+          imageSymbol = '🍩'; break;
 
-      } else if (imageLabel === 'cookie') {
-        imageSymbol = '🍪';
+        case ('cookie'):
+          imageSymbol = '🍪'; break;
 
-      } else if (imageLabel === 'hotdog') {
-        imageSymbol = '🌭';
+        case ('hotdog'):
+          imageSymbol = '🌭'; break;
 
-      } else if (imageLabel === 'bacon') {
-        imageSymbol = '🥓';
+        case ('bacon'):
+          imageSymbol = '🥓'; break;
 
-      } else if (imageLabel === 'hamburger') {
-        imageSymbol = '🍔';
+        case ('hamburger'):
+          imageSymbol = '🍔'; break;
 
-      } else {
-        imageSymbol = '🥦';
+        case ('brocolli'):
+          imageSymbol = '🥦'; break;
 
+        default:
+          imageSymbol = '❓'; break;
       }
 
-
-      console.log(imageLabel, imageSymbol);
+      console.log('You select --->',imageLabel, imageSymbol);
 
       this.setState({
         label  : imageLabel,
@@ -107,8 +108,9 @@ class App extends Component {
                <Emoji label={'bacon'} symbol={'🥓'} />
                <Emoji label={'hamburger'} symbol={'🍔'} />
                <Emoji label={'brocolli'} symbol={'🥦'} />
+               <Emoji label={'dunno'} symbol={'❓'} />
             </select> &nbsp;
-            <button id={'myId'} type='submit'>Let's Go!</button>
+            <button id={'myId'} type='submit'>Lets Go!</button>
         </form>
 
         <br />
